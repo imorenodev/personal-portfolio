@@ -1,1 +1,1 @@
-This site will be my personal portfolio showcasing skills in HTML, CSS, Javascript and jQuery.
+This site will be my personal portfolio, showcasing my skills in HTML, CSS, Javascript and jQuery.
