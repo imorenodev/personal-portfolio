@@ -1,0 +1,1 @@
+This site will be my personal portfolio showcasing skills in HTML, CSS, Javascript and jQuery.
