@@ -1,5 +1,5 @@
 body {
-	background-image: url("../images/site-background.jpg"), url("../images/site-background-repeat.jpg");
+	background-image: url("../images/site-background.png");
 	background-position: left top;
 	background-size: contain;
 	background-repeat: no-repeat, repeat;
