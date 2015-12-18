@@ -1,0 +1,55 @@
+body {
+	background-image: url("../images/site-background.jpg"), url("../images/site-background-repeat.jpg");
+	background-position: left top;
+	background-size: contain;
+	background-repeat: no-repeat, repeat;
+}
+
+#logo {
+	width: 30%;
+	margin: 3% auto auto 18%;
+}
+
+#nav {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto 50% auto;
+}
+
+#nav p {
+	font-family: Geneva;
+	font-weight: bold;
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	margin: 0 0 0 0;
+	padding: 25px 0px 25px 0px;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+.page_header {
+	text-align: right;
+	margin: 0 5% 50% 0;
+}
+
+.footer {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#breadcrumbs p {
+	display: inline;
+}
