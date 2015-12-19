@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<title>Ian C Moreno - Web Developer - Personal Portfolio</title>
-		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="js/personal-site.js" async defer></script>
 	</head>
 	<body>
@@ -10,25 +11,29 @@
 			<img src="images/site-logo.svg" class="logo" alt="Ian Moreno's Logo" title="Logo for IanCMoreno.com" />
 		</div>
 		<div id="nav">
-			<p><a href="#about">THE MAN</a></p>
 			<p><a href="#portfolio">THE WORK</a></p>
+			<p><a href="#about">THE MAN</a></p>
 			<p><a href="#contact">THE MISSION</a></p>
 		</div>
-		<div id="about" class="page_header">
-			<h1>ABOUT ME</h1>
-		</div>
-		<div id="portfolio" class="page_header">
+		<div id="portfolio" class="page-header">
 			<h1>PORTFOLIO</h1>
+			<img src="images/icon-arrow-right.svg" class="toggle-arrow" />
 		</div>
-		<div id="contact" class="page_header">
+		<div id="about" class="page-header">
+			<h1>ABOUT ME</h1>
+			<img src="images/icon-arrow-right.svg" class="toggle-arrow" />
+			<img src="images/ian.jpg" class="ian-pic" />
+		</div>
+		<div id="contact" class="page-header">
 			<h1>CONTACT</h1>
+			<img src="images/icon-arrow-right.svg" class="toggle-arrow" />
 		</div>
 		<div id="breadcrumbs" class="footer">
 			<p><a href="#">CONTACT</a></p>
 			<p> - </p>
-			<p><a href="#">GITHUB</a></p>
+			<p><a href="https://github.com/imorenodev">GITHUB</a></p>
 			<p> - </p>
-			<p><a href="#">CODEPEN</a></p>
+			<p><a href="http://codepen.io/imorenodev/">CODEPEN</a></p>
 		</div>
 		<div class="footer">
 			Copyright &copy 2015 Ian Moreno
