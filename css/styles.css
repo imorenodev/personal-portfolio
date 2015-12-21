@@ -1,11 +1,16 @@
-/***** HEADER *****/
+body {
+	background-image: url("../images/site-background.png");
+	background-position: left top;
+	background-size: contain;
+	background-repeat: no-repeat, repeat;
+	font-family: Arial, sans-serif;
+}
+
 #logo {
 	width: 30%;
 	margin: 3% auto auto 18%;
 }
 
-
-/**** NAV ******/
 #nav {
 	width: 40%;
 	text-align: center;
@@ -23,24 +28,19 @@
 
 a:link {
 	text-decoration: none;
-	color: #000;
+	color: black;
 }
 
 a:visited {
-	color: #000;
+	color: black;
 }
 
 a:hover {
 	color: #ff0000;
 }
 
-/**** MAIN BODY *****/
-body {
-	background-image: url("../images/site-background.png");
-	background-position: left top;
-	background-size: contain;
-	background-repeat: no-repeat, repeat;
-	font-family: Arial, sans-serif;
+.page-header {
+	margin: 0 0% 50% 5%;
 }
 
 h1 {
@@ -51,55 +51,27 @@ h1 {
 	display: inline;
 }
 
-#portfolio-container {
-	width: 100%;
-	height: 100%;
-	background-color: #f0f0f5;
-	display: none;
-}
-
-#about-container {
-	margin: 0 auto 0 auto;
-	width: 80%;
-	height: 100%;
-	display: none;
-}
-
-#contact-container {
-	width: 100%;
-	height: 100%;
-	background-color: #f0f0f5;
-	display: none;
-}
-
-.content-header {
-	margin: 5% 0 5% 5%;
-}
-
 .toggle-arrow {
 	height: 1.5em;
 	vertical-align: top;
 	padding: 5px 0 0 10px;
 }
 
-.rotate-90-degrees {
-	transform: rotate(90deg);
-}
-
 .ian-pic {
-	border-radius: 50%;
 	width: 200px;
-	margin: 10px 15px 0px 10px;
-	float: left;
+	margin: 5% 0 0 0;
+	display: block;
 }
 
-/***** FOOTER *****/
 .footer {
 	text-align: center;
-	margin: 10% 0 5% 0;
+	margin-bottom: 5%;
 }
 
 #breadcrumbs p {
 	display: inline;
 }
 
+.rotate-90-degrees {
+	transform: rotate(90deg);
+}
