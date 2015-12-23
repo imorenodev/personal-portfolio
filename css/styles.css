@@ -56,6 +56,15 @@ h1 {
 	height: 100%;
 	background-color: #f0f0f5;
 	display: none;
+	border-size: 0.1px;
+	border-color: #ccc;
+	border-style: solid;
+	border-width: thin;
+	box-shadow: inset 4px 4px 2px rgba(0,0,0,0.05);
+}
+
+#portfolio-container p {
+	margin: 10px;
 }
 
 #about-container {
@@ -70,6 +79,15 @@ h1 {
 	height: 100%;
 	background-color: #f0f0f5;
 	display: none;
+	border-size: 0.1px;
+	border-color: #ccc;
+	border-style: solid;
+	border-width: thin;
+	box-shadow: inset 4px 4px 2px rgba(0,0,0,0.05);
+}
+
+#contact-container p {
+	margin: 10px;
 }
 
 .content-header {
@@ -96,10 +114,14 @@ h1 {
 /***** FOOTER *****/
 .footer {
 	text-align: center;
-	margin: 10% 0 5% 0;
+	margin: 10% 0% 5% 0;
 }
 
 #breadcrumbs p {
 	display: inline;
+}
+
+#breadcrumbs i {
+	padding: 0 1% 0 1%;
 }
 
